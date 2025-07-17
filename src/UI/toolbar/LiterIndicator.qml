@@ -12,10 +12,9 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         spacing: 4
 
-        // Replace with your own icon if desired
         Image {
             id: literIcon
-            source: "Images/LiterIcon.svg" // Put your SVG inside Images/ and update path if necessary
+            source: "Images/LiterIcon.svg" 
             width: 24
             height: 24
             fillMode: Image.PreserveAspectFit
